@@ -10,7 +10,7 @@ namespace AmazonMGMT.Domain.Entity
     {
         public long BrandId {  get; set; }
 
-        public string BrandName { get; set; }
+        public string BrandName { get; set; } = null!;
 
         public string DisplayName { get; set; }
 

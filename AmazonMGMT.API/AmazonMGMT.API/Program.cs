@@ -13,7 +13,7 @@ builder.Services.AddTransient<IBrandServices, BrandServices>();
 builder.Services.AddTransient<IProductService, ProductService>();
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 
 app.UseAuthorization();
 
