@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonMGMT.API", "AmazonMGMT.API\AmazonMGMT.API\AmazonMGMT.API.csproj", "{3BD6BE42-F2D8-4173-9323-A26CB58D09C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonMGMT.Domain", "AmazonMGMTDomain\AmazonMGMT.Domain\AmazonMGMT.Domain.csproj", "{44EA0878-50EA-44D7-BFE4-1EA7421F4101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonMGMT.Application", "AmazonMGMT.Application\AmazonMGMT.Application\AmazonMGMT.Application.csproj", "{03F9BDF2-3746-4E2D-8387-2D9058DFAC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonMGMT.Infrastructure", "AmazonMGMTInfrastructure\AmazonMGMT.Infrastructure\AmazonMGMT.Infrastructure.csproj", "{85C7F2BE-B9FE-4D3F-96B3-7535E977DA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD6BE42-F2D8-4173-9323-A26CB58D09C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD6BE42-F2D8-4173-9323-A26CB58D09C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD6BE42-F2D8-4173-9323-A26CB58D09C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD6BE42-F2D8-4173-9323-A26CB58D09C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EA0878-50EA-44D7-BFE4-1EA7421F4101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EA0878-50EA-44D7-BFE4-1EA7421F4101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EA0878-50EA-44D7-BFE4-1EA7421F4101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EA0878-50EA-44D7-BFE4-1EA7421F4101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F9BDF2-3746-4E2D-8387-2D9058DFAC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F9BDF2-3746-4E2D-8387-2D9058DFAC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F9BDF2-3746-4E2D-8387-2D9058DFAC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F9BDF2-3746-4E2D-8387-2D9058DFAC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C7F2BE-B9FE-4D3F-96B3-7535E977DA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C7F2BE-B9FE-4D3F-96B3-7535E977DA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C7F2BE-B9FE-4D3F-96B3-7535E977DA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C7F2BE-B9FE-4D3F-96B3-7535E977DA58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29205F4F-B3A0-4EDF-B68A-8A3E0E7EC71F}
+	EndGlobalSection
+EndGlobal
